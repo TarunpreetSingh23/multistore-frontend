@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://multivendorstore-backend-3.onrender.com',
+        target: 'https://multivender-store.onrender.com/', // Backend server URL
         changeOrigin: true,
         secure: false,
       },

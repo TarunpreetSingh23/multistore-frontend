@@ -135,7 +135,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
 
     setLoading(true);
     try {
-      const res = await fetch("https://multivendorstore-backend-3.onrender.com/api/auth/login", {
+      const res = await fetch("https://multivender-store.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -193,7 +193,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
 
     setLoading(true);
     try {
-      const res = await fetch("https://multivendorstore-backend-3.onrender.com/api/auth/register", {
+      const res = await fetch("https://multivender-store.onrender.com/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -238,7 +238,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
 
     setLoading(true);
     try {
-      const res = await fetch("https://multivendorstore-backend-3.onrender.com/api/auth/forgot-password", {
+      const res = await fetch("https://multivender-store.onrender.com/api/auth/forgot-password", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: targetEmail }),
@@ -309,7 +309,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
 
     setLoading(true);
     try {
-      const res = await fetch("https://multivendorstore-backend-3.onrender.com/api/auth/verify-reset-otp", {
+      const res = await fetch("https://multivender-store.onrender.com/api/auth/verify-reset-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -355,7 +355,7 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }) {
 
     setLoading(true);
     try {
-      const res = await fetch("https://multivendorstore-backend-3.onrender.com/api/auth/reset-password", {
+      const res = await fetch("https://multivender-store.onrender.com/api/auth/reset-password", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
